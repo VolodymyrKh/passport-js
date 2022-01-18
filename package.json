@@ -1,0 +1,29 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "Passport-jwt authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Vkh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "luxon": "^2.3.0",
+    "mongoose": "^6.1.6",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
